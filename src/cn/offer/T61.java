@@ -1,11 +1,10 @@
-package cn.test;
+package cn.offer;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.Stack;
 
 
-public class Test61 {
+public class T61 {
 
 	class TreeNode {
 	    int val;

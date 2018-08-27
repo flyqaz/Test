@@ -1,6 +1,6 @@
-package cn.test;
+package cn.offer;
 
-public class Test66 {
+public class T66 {
 
 	public boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
 		int flag[] = new int[matrix.length];

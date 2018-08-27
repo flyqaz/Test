@@ -1,9 +1,9 @@
-package cn.test;
+package cn.offer;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class Test64 {
+public class T64 {
 
 	int count = 0;
 	PriorityQueue<Integer> minHeap = new PriorityQueue<>();

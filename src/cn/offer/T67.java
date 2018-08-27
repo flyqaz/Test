@@ -1,6 +1,6 @@
-package cn.test;
+package cn.offer;
 
-public class Test67 {
+public class T67 {
 
 	public int movingCount(int threshold, int rows, int cols) {
 		int flag[][] = new int[rows][cols]; // 记录是否已经走过
