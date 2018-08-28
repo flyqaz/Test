@@ -9,6 +9,7 @@ import java.util.Stack;
  */
 public class T05 {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public ArrayList<Integer> printListFromTailToHead(List listNode) {
 		ArrayList<Integer> list = new ArrayList<>();
 		if (listNode == null)
