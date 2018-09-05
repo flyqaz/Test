@@ -2,7 +2,7 @@ package cn.test;
 
 import java.util.*;
 
-public class Test6 {
+public class Test06 {
 	public static int[] clockwisePrint(int[][] mat, int n, int m) {
 		int[] a = new int[n * m];
 		int z = 0;

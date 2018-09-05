@@ -1,6 +1,6 @@
 package cn.test;
 
-public class Test8 {
+public class Test08 {
 	
 	public static void main(String[] args) {
 		boolean fa = true;

@@ -2,7 +2,7 @@ package cn.test;
 
 import java.util.ArrayList;
 
-public class Test7 {
+public class Test07 {
 	public static int[] clockwisePrint(int[][] mat, int n, int m) {
 		// write code here
 		ArrayList<Integer> list = new ArrayList(n * m);

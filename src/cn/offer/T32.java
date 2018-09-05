@@ -48,7 +48,7 @@ public class T32 {
 	
 	public static void main(String[] args) {
 		T32 t = new T32();
-		System.out.println(t.CountOne2(22));
+		System.out.println(t.NumberOf1Between1AndN_Solution(2048));
 	}
 
 }

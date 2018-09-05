@@ -2,14 +2,14 @@ package cn.test;
 
 import java.util.Scanner;
  
-public class Test3 {
+public class Test03 {
 	public static String minpath = "asdasd";
 	
 	static {
 		System.out.println("Test3Test3");
 	}
 
-	public Test3() {
+	public Test03() {
 		super();
 		System.out.println("Test3构造函数");
 	}

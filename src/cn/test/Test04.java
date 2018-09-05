@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author wu161
  *
  */
-public interface Test4 {
+public interface Test04 {
 
 	public void test() ;
 

@@ -2,7 +2,7 @@ package cn.test;
 
 import java.util.Scanner;
  
-public class Test2 {
+public class Test02 {
 	public static void main(String[] args) {
 		short s1 = 1; 
 		//s1 = s1 + 1;

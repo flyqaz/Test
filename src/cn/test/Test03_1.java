@@ -2,6 +2,6 @@ package cn.test;
 
 import java.util.Scanner;
  
-public class Test3_1 extends Test3{
+public class Test03_1 extends Test03{
 	
 }
