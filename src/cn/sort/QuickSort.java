@@ -13,7 +13,7 @@ public class QuickSort {
 		int end = a.length - 1;
 		quickSort(a, start, end);
 		for (int i = 0; i < a.length; i++) {
-			System.out.println(a[i]);
+			System.out.print(a[i]+" ");
 		}
 
 	}

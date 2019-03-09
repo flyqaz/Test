@@ -1,6 +1,7 @@
 package cn.test;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Test07 {
 	public static int[] clockwisePrint(int[][] mat, int n, int m) {
@@ -67,11 +68,20 @@ public class Test07 {
 		return clockwiseArray;
 	}
 	public static void main(String[] args) {
-		int[][] mun = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+		Scanner sc =new Scanner(System.in);
+		int m = sc.nextInt();
+		int n = sc.nextInt();
+		int[][] mun =new int[m][n];
+		for (int i = 0; i < mun.length; i++) {
+			for (int j = 0; j < mun[i].length; j++) {
+				mun[i][j] =sc.nextInt();
+			}
+		}
+//		int[][] mun = {{1,2,3},{4,5,6},{7,8,9}};
 		int[] arr = clockwisePrint(mun,mun.length,mun[0].length);
 		for(int j=0;j<arr.length;j++)//利用嵌套for循环来遍历二维数组
 		{
-			System.out.print(arr[j]+"  ");
+			System.out.println(arr[j]);
 		}
 
 	}
